@@ -1,3 +1,299 @@
-/*
- * Estilos de tu proyecto
- */
+
+/*Selectores reutilizables*/
+
+* {
+   margin: 0;
+   padding: 0;
+ }
+
+.text-uppercase {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-lato {
+  font-family: 'Lato', sans-serif;  
+}
+
+/*Barra de navegación*/
+header {
+  background: #2c3e50;
+  padding: 28px 0px;
+  width: 100%;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+nav {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 4px;
+}
+
+#menu ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  text-align: center;
+}
+
+ul li:first-child {
+  margin-right: 450px;
+  font-size: 30px;
+}
+
+li {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: 14px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+#hover-colored:hover {
+  color: #18bc9c;
+}
+
+/*Primera sección*/
+.first-section {
+  background-color: #18bc9c;
+  color: #fff;
+  text-align:  center;
+  padding-top: 15%;
+  padding-bottom: 4%;
+  line-height: 114px;
+}
+
+.image {
+  box-sizing: border-box;
+  display: block;
+  height: 260px;
+  width: 300px;
+  margin: auto;
+  padding: 0;
+}
+.container {
+  box-sizing: border-box;
+  padding: 0;
+  text-align: center;
+}
+
+.sub-container {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width:70%;
+}
+
+#main-text{
+  font-size: 76px;
+  -moz-text-size-adjust: 100% ;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: center;
+}
+
+#skills{
+  font-size: 28px;
+  line-height: 42px;
+  display: inline-block;
+  vertical-align: center;
+}
+
+/*Sección Portafolio*/
+.second-section {
+  background-color: #ffffff;
+}
+
+.sub-section {
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 101px;
+
+}
+
+#main-word {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 49px;
+  line-height: 57.6px;
+  color: #212529;
+}
+
+.album {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 42px;
+  margin-bottom: 101px;
+  width: 1135px;
+}
+.pic{
+  float: left;
+  margin: 14px;
+}
+
+/*Sección Acerca de...*/
+.third-section {
+  background-color: #18bc9c;
+  text-align: center;
+  color: #fff; 
+}
+
+.container-2 {
+  box-sizing: border-box;
+  padding: 101px 0px;
+}
+
+#about {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 49px;
+  line-height: 57.6px;
+}
+.sub-container-2 {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 21px;
+  padding-bottom: 35px;
+  width: 55%;
+}
+
+.paragraph {
+  box-sizing: border-box;
+  width: 40%;
+  margin: 20px; 
+  text-align: left;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.button-1 {
+  margin: auto;
+  width: 220px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 7px 7px 7px 7px;
+}
+
+#button {
+  font-size: 20px;
+  box-sizing: border-box;
+  padding-top: 7px;
+  color:#fff;
+  width: 220px;
+  height: 40px;
+}
+
+a #button {
+  display: inline-block;
+}
+
+#button:hover {
+  background: #fff;
+  color: #18bc9c;
+}
+
+/*Sección Contacto*/
+.fourth-section {
+  background: #ffffff;
+}
+
+.container-3 {
+  padding: 80px 0px;
+  text-align: center;
+}
+
+input, textarea { 
+  outline: none;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+
+form {
+  display: block;
+  margin: 30px;
+  overflow: hidden;
+}
+
+form > div > label {
+  display: block;
+  padding: 20px 20px 10px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #939393;
+  font-size: 21px;
+}
+
+input[type=send] {
+  width: 7%;
+  background-color: #18bc9c;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=send]:hover {
+  background-color: #fff;
+  color: #18bc9c;
+  border: 2px solid #18bc9c;
+}
+
+/*Pie de página*/
+
+.footer {
+  background: #2c3e50;
+  color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 28px;
+  line-height: 42px;
+  width: 100%;
+  height: 70%;
+  padding: 42px;
+  text-align: center;
+}
+
+.icons {
+  color: #fff;
+  font-size: 24px;
+}
+
+.column {
+  box-sizing: border-box;
+  margin-bottom: 56px;
+  float: left;
+  width: 33.33%;
+  height: 120px;
+}
+
+.foot {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#text {
+  font-size: 20px;
+}
+
+#colored {
+  color: #18bc9c;
+}
