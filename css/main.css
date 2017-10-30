@@ -15,6 +15,15 @@
   font-family: 'Lato', sans-serif;  
 }
 
+.icon-star {
+  font-size: 30px;
+}
+
+.star-1 {
+  display: inline-block;
+  padding: 0;
+}
+
 /*Barra de navegación*/
 header {
   background: #2c3e50;
@@ -74,6 +83,16 @@ a {
   line-height: 114px;
 }
 
+.star-1::before, .star-1::after {
+  content: "";
+  padding: 0;
+  margin: 7;
+  vertical-align: center;
+  display: inline-block;
+  border: 3px solid #fff;
+  width: 100px;
+}
+
 .image {
   box-sizing: border-box;
   display: block;
@@ -131,6 +150,16 @@ a {
   color: #212529;
 }
 
+.star-2::before, .star-2::after {
+  content: "";
+  padding: 0;
+  margin: 7;
+  vertical-align: center;
+  display: inline-block;
+  border: 3px solid #2c3e50;
+  width: 100px;
+}
+
 .album {
   box-sizing: border-box;
   display: inline-block;
@@ -161,6 +190,17 @@ a {
   margin-bottom: 49px;
   line-height: 57.6px;
 }
+
+.star-3::before, .star-3::after {
+  content: "";
+  padding: 0;
+  margin: 7;
+  vertical-align: center;
+  display: inline-block;
+  border: 3px solid #fff;
+  width: 100px;
+}
+
 .sub-container-2 {
   box-sizing: border-box;
   display: inline-block;
@@ -209,6 +249,16 @@ a #button {
 .fourth-section {
   background: #ffffff;
   padding-bottom: 63px;
+}
+
+.star-4::before, .star-4::after {
+  content: "";
+  padding: 0;
+  margin: 7;
+  vertical-align: center;
+  display: inline-block;
+  border: 3px solid #2c3e50;
+  width: 100px;
 }
 
 .container-3 {
